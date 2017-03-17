@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>AmSwanor</title>
+  <title>产品经理，你到底要什么样的应届生？ | AmSwanor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="产品经理，你到底要什么样的应届生？咳咳，说个很尴尬的事，在本人开始谋求产品方向的工作后，到现在还没有找到工作，期间自己也做了很多工作，学Axure,Visio,Xmind等工具，看了凯文凯利的著作《失控》，周宏伟的《我的互联网方法论》，《精益创业》，《产品心经》《结网》《启示录》《人人都是产品经理》《产品型社群》等一系列锻炼自己思维的书籍，不过印象最深的就是 日本战略之父 大前研一的思考的技术，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AmSwanor">
+<meta property="og:title" content="产品经理，你到底要什么样的应届生？">
 <meta property="og:url" content="http://yoursite.com/2017/03/10/产产品/index.html">
 <meta property="og:site_name" content="AmSwanor">
 <meta property="og:description" content="产品经理，你到底要什么样的应届生？咳咳，说个很尴尬的事，在本人开始谋求产品方向的工作后，到现在还没有找到工作，期间自己也做了很多工作，学Axure,Visio,Xmind等工具，看了凯文凯利的著作《失控》，周宏伟的《我的互联网方法论》，《精益创业》，《产品心经》《结网》《启示录》《人人都是产品经理》《产品型社群》等一系列锻炼自己思维的书籍，不过印象最深的就是 日本战略之父 大前研一的思考的技术，">
@@ -21,9 +21,9 @@
 <meta property="og:image" content="http://i.imgur.com/6c1Sudp.jpg">
 <meta property="og:image" content="http://i.imgur.com/HLKWrPL.jpg">
 <meta property="og:image" content="http://i.imgur.com/LU1kKwK.png">
-<meta property="og:updated_time" content="2017-03-12T07:04:44.028Z">
+<meta property="og:updated_time" content="2017-03-17T04:16:12.655Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AmSwanor">
+<meta name="twitter:title" content="产品经理，你到底要什么样的应届生？">
 <meta name="twitter:description" content="产品经理，你到底要什么样的应届生？咳咳，说个很尴尬的事，在本人开始谋求产品方向的工作后，到现在还没有找到工作，期间自己也做了很多工作，学Axure,Visio,Xmind等工具，看了凯文凯利的著作《失控》，周宏伟的《我的互联网方法论》，《精益创业》，《产品心经》《结网》《启示录》《人人都是产品经理》《产品型社群》等一系列锻炼自己思维的书籍，不过印象最深的就是 日本战略之父 大前研一的思考的技术，">
 <meta name="twitter:image" content="http://i.imgur.com/BFdv4dV.png">
   
@@ -70,6 +70,10 @@
 		</nav>
 		<nav class="header-smart-menu">
     		
+    			
+    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
     			
             
     			
@@ -157,6 +161,21 @@
           <div id="js-content" class="content-ll">
             <article id="post-产产品" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      产品经理，你到底要什么样的应届生？
+    </h1>
+  
+
+        
+        <a href="/2017/03/10/产产品/" class="archive-article-date">
+  	<time datetime="2017-03-10T05:35:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-10</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -302,7 +321,7 @@
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          (no title)
+          微信，为什么要做“仅向朋友展示半年的朋友圈 ”？
         
       </div>
     </a>
@@ -353,7 +372,7 @@
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
-		innerArchive: false,
+		innerArchive: true,
 		showTags: false
 	}
 </script>
@@ -367,6 +386,10 @@
     
     
       
+      
+      
+    
+      
     
       
       
@@ -378,14 +401,73 @@
     
     
       
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      
         
       
-      <li style="width: 100%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+        
+      
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
   </div>
   <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all" q-show="innerArchive">
+        <div class="search-wrap">
+          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
+          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
+        </div>
+        <div class="widget tagcloud search-tag">
+          <p class="search-tag-wording">tag:</p>
+          <label class="search-switch">
+            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
+          </label>
+          <ul class="article-tag-list" q-show="showTags">
+            
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="search-ul">
+          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
+            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
+            2、在根目录_config.yml里添加配置：
+<pre style="font-size: 12px;" q-show="jsonFail">
+  jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+</pre>
+          </p>
+          <li class="search-li" q-repeat="items" q-show="isShow">
+            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <p class="search-time">
+              <i class="icon-calendar icon"></i>
+              <span q-text="date|dateformat"></span>
+            </p>
+            <p class="search-tag">
+              <i class="icon-price-tags icon"></i>
+              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
+            </p>
+          </li>
+        </ul>
+    	</section>
     
 
     
